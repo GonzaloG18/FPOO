@@ -14,7 +14,7 @@ class Escenario {
   
   void cargarImagenes() {
     imagenSuelo = loadImage("suelo.png");
-    imagenSuelo.resize(50, 0);
+    imagenSuelo.resize(50, 20);
     imagenCesped = loadImage("cesped.png");
     imagenCesped.resize(150, 25); 
   }
